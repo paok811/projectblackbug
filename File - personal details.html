@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <h1>BIO Data</h1>
+    <img src=" content://com.android.providers.media.documents/document/image%3A9470" alt="Profile photo" width="130" height="130"> 
+    <style>
+        /* General Styles */
+body {
+    background: #0a0a0a; /* Deep black */
+    color: #e60000; /* Neon red */
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+/* Main Container */
+.container {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    background: rgba(15, 15, 15, 0.95); /* Dark semi-transparent */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 0, 0, 0.4);
+}
+
+/* Left Column (Profile) */
+.left-column {
+    width: 40%;
+    padding: 20px;
+    background: rgba(50, 0, 0, 0.8); /* Dark red */
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    box-shadow: inset 0px 0px 10px rgba(255, 0, 0, 0.3);
+}
+
+.left-column img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ff0000; /* Neon red */
+    transition: transform 0.3s ease-in-out;
+}
+
+.left-column img:hover {
+    transform: scale(1.1);
+}
+
+/* Right Column (Content) */
+.right-column {
+    width: 60%;
+    padding: 20px;
+    color: #ccc;
+}
+
+/* Section Titles */
+h3 {
+    background: linear-gradient(90deg, #ff0000, #800080); /* Red & Purple Gradient */
+    padding: 12px;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.8);
+}
+
+/* Paragraphs & Lists */
+p, li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* Skill Progress Bar */
+.bar {
+    width: 70%;
+    height: 8px;
+    background: #222;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    background: linear-gradient(90deg, #ff0000, #800080);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.8);
+}
+
+/* Social Media Links */
+.social-media a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    color: #ff00ff;
+    text-shadow: 0px 0px 15px rgba(255, 0, 255, 0.8);
+    transform: scale(1.1);
+}
+
+/* Cyberpunk Glowing Button */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #ff0000, #800080);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #800080, #ff0000);
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+/* Glitch Effect */
+h1 {
+    position: relative;
+    display: inline-block;
+    color: #ff0000;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.8);
+    animation: glitch 1s infinite alternate;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 4px 4px 0px #ff0000, -4px -4px 0px #800080;
+    }
+    100% {
+        text-shadow: -4px -4px 0px #ff0000, 4px 4px 0px #800080;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+}
+        
+        
+        
+    </style>
+</head>
+<body>
+
+<div class="content">
+    
+    <H2>Personal information</H2>
+    <p>name: Glendyl Tangub.</p>
+    <p>age: 19 years </p>
+    <p>address: Curvada,Tukuran,Zamboanga del sur </p>
+    <p>phone number: 09971772517</p>
+    <p>email: glendyltangub3@gmail.com</p>
+   
+    <h2>My Interests</h2>
+    <p>I love playing online games,  drawings and I'll play boxing also.</p>
+    
+    <h3>CREDENTIALS</h3>
+    </ul>
+    <p>Cookery NC2</p>
+        
+    
+</div>
+
+</body>
+</html>
+    <h2>My social media</h2>
+    <p>Facebook Tiktok Instagram </p>
